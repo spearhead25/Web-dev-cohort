@@ -1,0 +1,149 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: pink;
+    font-style: Arial;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 72% 28%;
+}
+
+.left{
+    height: 98px;
+    background-color: aqua;
+}
+
+.right{
+    height: 180px;
+    background-image: url("Untitled.jpg");
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position:absolute;
+    top: 280px;
+    left: 40%;
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .content {
+    animation: slideIn 1s ease-in-out forwards;
+  }
+  
+.card1:hover {
+   transform: scale(1.1);
+   transition: transform 0.3s ease;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.card3:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+ }
+
+h1{
+    height: 40px;
+    width:50%;
+    background-color: yellow;
+    border: 5px solid beige;
+    border-radius: 20px;
+    position: absolute;
+    left: 400px;
+    text-align: center;
+}
+
+h2{
+    background-color: aqua;
+    border: 5px solid rosybrown;
+    text-align: center;
+}
+.card1{
+    height: 250px;
+    width: 200px;
+    background-color: brown;
+    
+}
+
+.card2{
+    height: 250px;
+    width: 200px;
+    background-color: beige;
+}
+    
+.card3{
+    height: 250px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.card4{
+    height: 250px;
+    width: 200px;
+    background-color: greenyellow;
+}
+
+.card5{
+    height: 250px;
+    width: 200px;
+    background-color: chocolate;
+}
+
+.house{
+    font-size: 13px;
+    background-color: lightyellow;
+    width:100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    word-wrap: break-word;
+    border: 2px dotted mediumaquamarine;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom: -1000px;
+}
+
+.battle{
+    height: 82px;
+    width: 83%;
+    background-color: rgb(129, 72, 161);
+    position:absolute;
+    top:98px;
+}
+
+.signin{
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}

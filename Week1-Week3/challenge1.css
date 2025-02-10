@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+body.dark{
+    background-color: black;
+    color: white;
+}
+
+#switch{
+    position: absolute;
+    right: 106px;
+    top: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main{
+    position: absolute;
+    top: 180px;
+    left: 120px;
+}
+
+#hito{
+    margin-top: 20px;
+}
+
+.hont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#asep{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.santa{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.emoo{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#click{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#icons{
+    display: flex;
+    gap: 20px;
+}
+
+.img{
+    position: absolute;
+    left: 700px;
+    bottom: -28px;
+}
