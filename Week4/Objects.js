@@ -32,3 +32,13 @@ p2.fname = "Parul";
 
 console.log(p2);
 console.log(p1);
+
+const teas = {
+    name: "Lemon tea",
+    type: "Green",
+    caffiene: "low"
+}
+
+console.log(teas.name);
+console.log(teas["type"]);
+
