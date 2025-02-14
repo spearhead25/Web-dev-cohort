@@ -42,3 +42,24 @@ const teas = {
 console.log(teas.name);
 console.log(teas["type"]);
 
+teas.origin = "Assam";
+
+teas.caffeine = "Medium";
+
+delete teas.type;
+
+console.log("origin" in teas);
+
+for(let key in teas){
+    console.log(key + ": " + teas[key]);
+}
+
+const myTeas = {
+    greentea: {
+        name: "Green Tea"
+    },
+    blackTea: {
+        name: "Black Tea"
+    }
+}
+
