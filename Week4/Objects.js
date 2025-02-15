@@ -65,18 +65,41 @@ const myTeas = {
 
 //Before ES6, base blueprint was made using function constructor, but after ES6, now class blueprint is used rather
 
-function Person(fname, lname, contact){
-    this.fname = fname;
-    this.lname = lname;
-    this.contact = contact;
+// function Person(fname, lname, contact){
+//     this.fname = fname;
+//     this.lname = lname;
+//     this.contact = contact;
 
-    this.getName = function() {
+//     this.getName = function() {
+//         console.log(this.fname, this.lname);
+//     };
+// }
+
+// const person1 = new Person("harry", "doomi", "99999");
+// const pn = new Person("Don", "Joe", "88888");
+// const p3 = new Person("daisy", "Joe", "77777");
+
+// console.log(person1);
+
+class Person {
+    constructor(fname, lname, contact) {
+        this.fname = fname;
+        this.lname = lname;
+        this.contact = contact;
+    }
+    getContact() {
+        console.log(this.contact);
+    }
+    getName() {
         console.log(this.fname, this.lname);
-    };
+    }
 }
 
-const person1 = new Person("harry", "doomi", "99999");
-const pn = new Person("Don", "Joe", "88888");
-const p3 = new Person("daisy", "Joe", "77777");
-
+const person1 = new Person("Harry", "Doe", "9999");
 console.log(person1);
+person1.getName();
+
+
+
+
+
