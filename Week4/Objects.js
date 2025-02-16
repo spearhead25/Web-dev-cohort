@@ -100,6 +100,17 @@ console.log(person1);
 person1.getName();
 
 
+const obj1 = {
+    fname: "harii",
+    lname: "potter",
+    getFullname: function(){
+        return `${this.fname} ${this.lname}`;
+    },
+};
 
+const obj2 = {
+    fname: "Anirudh",
+    lname: "Jwala"
+}
 
 
