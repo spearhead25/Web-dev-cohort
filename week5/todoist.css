@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 5px;
+}
+
+#in{
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#add{
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.task-item{
+    background-color: grey;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    width: 13vw;
+    margin-left: 100px;
+}
+
+.delete-btn{
+    background-color: blue;
+    cursor: pointer;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#task-list{
+    margin-left: 610px;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: grey;
+    width: 10vw;
+    border-radius: 5px;
+}
+
+#remove{
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
