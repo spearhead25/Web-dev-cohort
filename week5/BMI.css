@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.Boxy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 10px;
+    height: 250px;
+    width: 250px;
+    margin-top: 200px;
+    margin-left: 600px;
+    background-color: beige;
+}
+
+.in{
+    padding: 10px;
+}
+
+.ins{
+    padding: 10px;
+}
+
+.calculate{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
