@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+.color {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.color button:nth-of-type(1) { background-color: red; color: red; }
+.color button:nth-of-type(2) { background-color: green; color: green; }
+.color button:nth-of-type(3) { background-color: blue; color: blue; }
+.color button:nth-of-type(4) { background-color: purple; color: purple; }
+
+#reset {
+    background-color: gray;
+    color: gray;
+}

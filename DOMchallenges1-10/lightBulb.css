@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.lightbulb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+}
+
+.lightbulb img {
+    width: 100px;
+    filter: invert(60%) sepia(10%) saturate(10%) brightness(80%); 
+}
+
+#toggle{
+    background-color: green;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}

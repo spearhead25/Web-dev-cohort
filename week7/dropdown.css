@@ -1,0 +1,38 @@
+.dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 250px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+
+#color {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#Add {
+    padding: 10px;
+    border: none;
+    white-space: nowrap;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Add {
+    background: #28a745;
+    color: white;
+}
+
+#Add:hover {
+    background: #1e7e34;
+}
