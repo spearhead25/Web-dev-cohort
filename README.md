@@ -1,1 +1,1 @@
-6 month web development cohort
+Web development cohort
