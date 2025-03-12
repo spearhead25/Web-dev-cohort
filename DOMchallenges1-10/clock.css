@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.clock-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.analog-clock {
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    background-color: white;
+}
+
+.hour-hand {
+    width: 4px;
+    height: 35px;
+}
+
+.minute-hand {
+    width: 3px;
+    height: 50px;
+}
+
+.second-hand {
+    width: 2px;
+    height: 60px;
+    background-color: red;
+}
+
+.digital-clock {
+    font-size: 2rem;
+    font-weight: bold;
+}
+    
